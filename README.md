@@ -1,5 +1,5 @@
 ## AC 2-3 A22 Express Basic
-
+![image](https://github.com/HsiaooooooJu/S2-3_Express-Basic/blob/main/public/stylesheets/Project%20Screenshot.png)
 
 ## General info 🙌🏻
 A demo of using express to develop a web app.

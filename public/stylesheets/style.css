@@ -46,3 +46,8 @@ a {
 .button:not(:last-child) {
   margin-right: 20px;
 }
+
+.button:hover {
+  background-color: rgb(76, 76, 76);
+  color: #fff;
+}

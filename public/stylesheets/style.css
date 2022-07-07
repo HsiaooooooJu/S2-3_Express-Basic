@@ -18,3 +18,31 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 20px auto;
+}
+
+.container {
+  padding: 10px 30px;
+}
+
+.content {
+  display: flex;
+}
+
+.button {
+  margin: 6px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(210, 210, 210);
+  cursor: pointer;
+}
+
+.button:not(:last-child) {
+  margin-right: 20px;
+}

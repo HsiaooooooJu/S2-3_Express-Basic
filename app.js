@@ -7,7 +7,13 @@ app.set('view engine', 'hbs')
 
 // set localhost router
 app.get('/', (req, res) => {
-  res.render('index')
+  res.render('index', { title: '首頁' })
+})
+
+// set detail page router
+app.get('/:detailPage', (req, res) => {
+  const { detailPage } = req.params
+  res.render('index', { title: detailPage })
 })
 
 // set port
